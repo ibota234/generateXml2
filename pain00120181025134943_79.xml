@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:CustomerCreditTransferInitiationV03KhRq_v2 xmlns="http://hu.mhc.khb.com/common" xmlns:ns2="http://hu.mhc.khb.com/services/transfer">
+    <header>
+        <type>CustomerCreditTransferInitiationV03KhRq_v2</type>
+        <businessId>[businessId]</businessId>
+        <timestamp>2018-10-25T11:49:42.415Z</timestamp>
+        <source>EBANKMAIN</source>
+        <destination>EQUASCRE</destination>
+        <processId>[processid]</processId>
+    </header>
+    <ns2:body>
+		<ns2:Document>
+			<ns2:CstmrCdtTrfInitn>
+				<ns2:GrpHdr>
+					<ns2:MsgId>EBNG000000800478</ns2:MsgId>
+					<ns2:CreDtTm>2018-10-25T11:49:42.415Z</ns2:CreDtTm>
+					<ns2:NbOfTxs>1</ns2:NbOfTxs>
+					<ns2:CtrlSum>100.00</ns2:CtrlSum>
+					<ns2:InitgPty/>
+					<ns2:ChannelCode>EB</ns2:ChannelCode>
+				</ns2:GrpHdr>
+				<ns2:PmtInf>
+					<ns2:PmtInfId>EBNG000000800478</ns2:PmtInfId>
+					<ns2:PmtMtd>TRF</ns2:PmtMtd>
+					<ns2:ReqdExctnDt>2018-11-10</ns2:ReqdExctnDt>
+					<ns2:Dbtr>
+						<ns2:Nm>KALOCZKAY JNÉ</ns2:Nm>
+					</ns2:Dbtr>
+					<ns2:DbtrAcct>
+						<ns2:Id>
+							<ns2:Othr>
+								<ns2:Id>0002G94287100</ns2:Id>
+								<ns2:Issr>EQ</ns2:Issr>
+							</ns2:Othr>
+						</ns2:Id>
+						<ns2:Nm>KALOCZKAY JNÉ</ns2:Nm>
+					</ns2:DbtrAcct>
+					<ns2:DbtrAgt>
+						<ns2:FinInstnId>
+							<ns2:BIC>OKHBHUHB</ns2:BIC>
+						</ns2:FinInstnId>
+					</ns2:DbtrAgt>
+					<ns2:CdtTrfTxInf>
+						<ns2:PmtId>
+							<ns2:InstrId>EBNG000000800478</ns2:InstrId>
+							<ns2:EndToEndId>-endtoend-</ns2:EndToEndId>
+							<ns2:IntTrId>EBNG000000800478</ns2:IntTrId>
+						</ns2:PmtId>
+						<ns2:PmtTpInf>
+							<ns2:TxsTp>HV</ns2:TxsTp>
+							<ns2:CtgyPurp>
+								<ns2:Cd></ns2:Cd>
+							</ns2:CtgyPurp>
+						</ns2:PmtTpInf>
+						<ns2:Amt>
+							<ns2:InstdAmt Ccy="HUF">100.00</ns2:InstdAmt>
+						</ns2:Amt>
+						<ns2:Cdtr>
+							<ns2:Nm>Haidai Viachesl</ns2:Nm>
+						</ns2:Cdtr>
+						<ns2:CdtrAcct>
+							<ns2:Id>
+								<ns2:IBAN>HU24104075017811111100480681</ns2:IBAN>
+							</ns2:Id>
+						</ns2:CdtrAcct>
+						<ns2:RmtInf>
+							<ns2:Ustrd>Közlemény-EbankLak-BBelül-Átvezetés-Értéknapos-COT után-25E</ns2:Ustrd>
+						</ns2:RmtInf>
+					</ns2:CdtTrfTxInf>
+				</ns2:PmtInf>
+			</ns2:CstmrCdtTrfInitn>
+		</ns2:Document>
+	</ns2:body>
+</ns2:CustomerCreditTransferInitiationV03KhRq_v2>

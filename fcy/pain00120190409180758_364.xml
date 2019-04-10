@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:CustomerCreditTransferInitiationV03KhRq_v2 xmlns="http://hu.mhc.khb.com/common" xmlns:ns2="http://hu.mhc.khb.com/services/transfer">
+    <header>
+        <type>CustomerCreditTransferInitiationV03KhRq_v2</type>
+        <businessId>[businessId]</businessId>
+        <timestamp>2019-04-09T16:07:55.225Z</timestamp>
+        <source>EBANKMAIN</source>
+        <destination>EQUASCRE</destination>
+        <processId>[processid]</processId>
+    </header>
+    <ns2:body>
+		<ns2:Document>
+			<ns2:CstmrCdtTrfInitn>
+				<ns2:GrpHdr>
+					<ns2:MsgId>EBNGOA0000101364</ns2:MsgId>
+					<ns2:CreDtTm>2019-04-09T16:07:55.225Z</ns2:CreDtTm>
+					<ns2:NbOfTxs>1</ns2:NbOfTxs>
+					<ns2:CtrlSum>1.3</ns2:CtrlSum>
+					<ns2:InitgPty/>
+					<ns2:ChannelCode>OA</ns2:ChannelCode>
+				</ns2:GrpHdr>
+				<ns2:PmtInf>
+					<ns2:PmtInfId>EBNGOA0000101364</ns2:PmtInfId>
+					<ns2:PmtMtd>TRF</ns2:PmtMtd>
+					<ns2:ReqdExctnDt></ns2:ReqdExctnDt>
+					<ns2:Dbtr>
+						<ns2:Nm>Electra számlatípus-mûvelettípus EUR</ns2:Nm>
+					</ns2:Dbtr>
+					<ns2:DbtrAcct>
+						<ns2:Id>
+							<ns2:Othr>
+								<ns2:Id>00021018F0119</ns2:Id>
+								<ns2:Issr>EQ</ns2:Issr>
+							</ns2:Othr>
+						</ns2:Id>
+						<ns2:Nm>Electra számlatípus-mûvelettípus EUR</ns2:Nm>
+					</ns2:DbtrAcct>
+					<ns2:DbtrAgt>
+						<ns2:FinInstnId>
+							<ns2:BIC>OKHBHUHB</ns2:BIC>
+						</ns2:FinInstnId>
+					</ns2:DbtrAgt>
+					<ns2:CdtTrfTxInf>
+						<ns2:PmtId>
+							<ns2:InstrId>EBNGOA0000101364</ns2:InstrId>
+							<ns2:EndToEndId>-endtoend-</ns2:EndToEndId>
+							<ns2:IntTrId>EBNGOA0000101364</ns2:IntTrId>
+						</ns2:PmtId>
+						<ns2:PmtTpInf>
+							<ns2:TxsTp>DB</ns2:TxsTp>
+							<ns2:CtgyPurp>
+								<ns2:Cd></ns2:Cd>
+							</ns2:CtgyPurp>
+						</ns2:PmtTpInf>
+						<ns2:Amt>
+							<ns2:InstdAmt Ccy="EUR">1.3</ns2:InstdAmt>
+						</ns2:Amt>
+						<ns2:Cdtr>
+							<ns2:Nm>Electra számlatípus-mûvelettípus EUR</ns2:Nm>
+						</ns2:Cdtr>
+						<ns2:CdtrAcct>
+							<ns2:Id>
+								<ns2:IBAN>HU05104000234948495670481243</ns2:IBAN>
+							</ns2:Id>
+						</ns2:CdtrAcct>
+						<ns2:RmtInf>
+							<ns2:Ustrd>Közl-045-OpenApi Vállalati-KötelezettSzla FCY-FCY-EQ átvezetés-Sürgõs/AzonKonv-KöltsVis Nincs</ns2:Ustrd>
+						</ns2:RmtInf>
+					</ns2:CdtTrfTxInf>
+				</ns2:PmtInf>
+			</ns2:CstmrCdtTrfInitn>
+		</ns2:Document>
+	</ns2:body>
+</ns2:CustomerCreditTransferInitiationV03KhRq_v2>
